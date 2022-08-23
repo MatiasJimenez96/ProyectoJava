@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class ConexionBaseDatos {
     private static String url = "jdbc:mysql://localhost:3306/java_curso";
     private static String usuario = "root";
-    private static String contrasena = "abc123";
+    private static String contrasena = "";
     private static BasicDataSource pool;
 
     public static BasicDataSource getInstance() throws SQLException{  // POOL DE CONEXIONES
